@@ -16,6 +16,7 @@ export class Maps extends React.Component {
         }}
         key={val}
       >
+        <h1>{index.Name}</h1>
         <Map
           google={this.props.google}
           zoom={15}

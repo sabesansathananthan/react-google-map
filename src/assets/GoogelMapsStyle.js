@@ -2,6 +2,7 @@ export default [
   [
     {
       //Standard
+      Name: "Standard",
       Style: [
         {
           width: "100%",
@@ -13,6 +14,7 @@ export default [
     },
     {
       //Silver
+      Name: "Silver",
       Style: [
         {
           elementType: "geometry",
@@ -182,6 +184,7 @@ export default [
     },
     {
       //Retro
+      Name: "Retro",
       Style: [
         {
           elementType: "geometry",
@@ -406,6 +409,7 @@ export default [
     },
     {
       //Dark
+      Name: "Dark",
       Style: [
         {
           elementType: "geometry",
@@ -601,6 +605,7 @@ export default [
     },
     {
       //Night
+      Name: "Night",
       Style: [
         {
           elementType: "geometry",
@@ -771,6 +776,7 @@ export default [
     },
     {
       //Aubergine
+      Name: "Aubergine",
       Style: [
         {
           elementType: "geometry",
