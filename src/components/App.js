@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import Maps from "./Maps";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Maps />
+    </div>
+  );
 }
 
 export default App;
