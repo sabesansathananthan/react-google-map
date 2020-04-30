@@ -4,8 +4,6 @@ import googleMapStyles from "../assets/GoogelMapsStyle";
 
 export class Maps extends React.Component {
   render() {
-    // console.log(this.props[0]);
-    console.log(this.props[0].map((index, val) => index.Style));
     return this.props[0].map((index, val) => (
       <div
         style={{
@@ -33,5 +31,5 @@ export class Maps extends React.Component {
 Maps.defaultProps = googleMapStyles;
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDCn8TFXGg17HAUcNpkwtxxyT9Io9B_NcM",
+  apiKey: "API_KEY",
 })(Maps);
